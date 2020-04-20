@@ -1,0 +1,309 @@
+/*******************************************************************************/
+/******************************** SMALL SCREEN ********************************/
+/*******************************************************************************/
+@media only screen and (max-width: 600px) {
+
+  .page-title {
+    font-size: 5em;
+    font-family: 'Rancho', effect;
+    effect: font-effect-shadow-multiple;
+    margin-top: 25px;
+    color: #ffffff;
+  }
+
+  .card-img-top {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #slider {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 32rem;
+    margin-bottom: : 20px auto;
+    background-color: #00688B;
+  }
+  #products {
+    text-align: center;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 0 5px;
+  }
+  #products > article:first-child {
+    margin-left: 0;
+  }
+  #products > article {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    min-width: 15rem;
+    min-height: 15rem;
+    margin: 0 auto;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #1e1e1e;
+    transition: all .3s ease-in-out;
+    border-radius: 5px 15px;
+  }
+  .card {
+    width: 50px;
+    margin-left: -25px;
+  }
+  .card-body {
+    text-align: center;
+    display: inline-block;
+    width: 13rem;
+    margin-left: -1px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .page-title {
+    font-size: 5em;
+    font-family: 'Rancho', effect;
+    effect: font-effect-shadow-multiple;
+    margin-top: 25px;
+    color: #ffffff;
+  }
+
+  .card-img-top {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #slider {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 32rem;
+    margin-bottom: : 20px auto;
+    background-color: #00688B;
+  }
+  #products {
+    text-align: center;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 0 5px;
+  }
+  #products > article:first-child {
+    margin-left: 0;
+  }
+  #products > article {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    min-width: 15rem;
+    min-height: 15rem;
+    margin: 0 auto;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #1e1e1e;
+    transition: all .3s ease-in-out;
+    border-radius: 5px 15px;
+  }
+  .card {
+    width: 50px;
+    margin-left: -25px;
+  }
+  .card-body {
+    text-align: center;
+    display: inline-block;
+    width: 13rem;
+    margin-left: -1px;
+  }
+}
+
+/*******************************************************************************/
+/******************************** BIGGER SCREEN ********************************/
+/*******************************************************************************/
+@media only screen and (min-width: 992px) {
+  .page-title {
+    font-size: 10em;
+    font-family: 'Rancho', effect;
+    effect: font-effect-shadow-multiple;
+    margin-top: 25px;
+    color: #ffffff;
+  }
+
+  .card-img-top {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25rem;
+    height: 25rem;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #slider {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 50rem;
+    margin: 50px auto;
+    background-color: #00688B;
+  }
+  #products {
+    text-align: center;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 0 25px;
+  }
+  #products > article:first-child {
+    margin-left: 0;
+  }
+  #products > article {
+    position: relative;
+    min-width: 30rem;
+    min-height: 30rem;
+    margin: 10px auto;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #1e1e1e;
+    transition: all .3s ease-in-out;
+    border-radius: 10px 30px;
+  }
+  .card {
+    margin-left: 25px;
+  }
+  .card-body {
+    width: 100%;
+    margin-left: 25px;
+  }
+  #products > article.active {
+    text-align: center;
+    background-color: #940000;
+  }
+  #gofwd,
+  #gobwd{
+    position: absolute;
+    top: 50%;
+    padding: 50px 15px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.6);
+    transform: translateY(-50%);
+    transition: all .3s ease-out;
+  }
+  #gofwd:hover,
+  #gobwd:hover{
+    background-color: #fff;
+  }
+  #gobwd{
+    left: 0;
+  }
+  #gofwd{
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .page-title {
+    font-size: 10em;
+    font-family: 'Rancho', effect;
+    effect: font-effect-shadow-multiple;
+    margin-top: 25px;
+    color: #ffffff;
+  }
+
+  .card-img-top {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25rem;
+    height: 25rem;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #slider {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 50rem;
+    margin: 50px auto;
+    background-color: #00688B;
+  }
+  #products {
+    text-align: center;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 0 25px;
+  }
+  #products > article:first-child {
+    margin-left: 0;
+  }
+  #products > article {
+    position: relative;
+    min-width: 30rem;
+    min-height: 30rem;
+    margin: 10px auto;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #1e1e1e;
+    transition: all .3s ease-in-out;
+    border-radius: 10px 30px;
+  }
+  .card {
+    margin-left: 25px;
+  }
+  .card-body {
+    width: 100%;
+    margin-left: 25px;
+  }
+  #products > article.active {
+    text-align: center;
+    background-color: #940000;
+  }
+  #gofwd,
+  #gobwd{
+    position: absolute;
+    top: 50%;
+    padding: 50px 15px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.6);
+    transform: translateY(-50%);
+    transition: all .3s ease-out;
+  }
+  #gofwd:hover,
+  #gobwd:hover{
+    background-color: #fff;
+  }
+  #gobwd{
+    left: 0;
+  }
+  #gofwd{
+    right: 0;
+  }
+}

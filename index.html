@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Josaped Moreno" />
+    <meta name="keywords"  content="fullpage,jquery,demo,screen,fixed,fullscreen,backgrounds,full-screen" />
+    <meta name="Resource-type" content="Document" />
+    <!--LINKS-->
+    <link rel="icon" type="image/png" href="imgs/intellisrc100x100.png" sizes="196x196" />
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/skills.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.com/libraries/fullPage.js"></script>-->
+
+    <title>Josaped Moreno</title>
+
+    <style>
+      /* Backgrounds will cover all the section
+      * --------------------------------------- */
+      #section0,
+      #section1,
+      #section2,
+      #section3,
+      #section4,
+      #slide0,
+      #slide1,
+      #slide2 {
+          background-size: cover;
+          background-attachment: fixed;
+      }
+
+      /* Defining each sectino background and styles
+      * --------------------------------------- */
+      #section0 {
+        background-image: url(imgs/androidBackground.jpg);
+      }
+      #section0 div {
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+      }
+      #section0 h1, p {
+        color: white;
+      }
+      #section0 p {
+        font-size: 3em;
+      }
+      #section1 h1 {
+        padding: 6% 0 0 0;
+        color: white;
+      }
+      #section2 h1 {
+        padding: 6% 0 0 0;
+      }
+      #section2 h1, p {
+        color: white;
+      }
+      #section3 {
+        padding: 3% 0 0 0;
+      }
+      #section3 {
+        background-image: url(imgs/bg2.jpg);
+      }
+      #section3 h1 {
+        color: white;
+      }
+      #section4 {
+        padding: 3% 0 0 0;
+      }
+      #section4 h1 {
+        color: white;
+      }
+      #section4 {
+        background-image: url(imgs/bg5.jpg);
+      }
+
+      /*Adding background for the slides
+      * --------------------------------------- */
+      #slide0 {
+        background-image: url(imgs/bg3.jpg);
+      }
+      #slide1 {
+        /*background-image: url(imgs/bg1.jpg);*/
+      }
+      #slide2 {
+        /*background-image: url(imgs/bg2.jpg);*/
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="menu">
+      <li data-menuanchor="anchor1"><a href="#anchor1" id="menuHome">Home</a></li>
+      <li data-menuanchor="anchor2"><a href="#anchor2" id="menuAboutMe">About Me</a></li>
+      <li data-menuanchor="anchor3"><a href="#anchor3" id="menuProjects">My Projects</a></li>
+      <li data-menuanchor="anchor4"><a href="#anchor4" id="menuSkillSet">Skill Set</a></li>
+      <li data-menuanchor="anchor5"><a href="#anchor5" id="menuContact">Contact</a></li>
+      <li data-menuanchor="anchor6"><a href="#" id="menuTranslate"></a></li>
+    </ul>
+
+    <div id="fullpage">
+      <div class="section" id="section0">
+        <div class="fp-bg"></div>
+        <div class="intro">
+          <h1 id="h1Name"></h1>
+        </div>
+        <div id="social">
+    			<a class="facebookBtn cfgGlobalBtn" href="https://www.facebook.com/josapedmoreno" target="_blank"></a>
+    			<a class="twitterBtn cfgGlobalBtn" href="https://www.twitter.com/josapedmoreno30" target="_blank"></a>
+    			<a class="googleplusBtn cfgGlobalBtn" href="#" ></a>
+    			<a class="linkedinBtn cfgGlobalBtn" href="https://jp.linkedin.com/in/josaped-moreno-538263125" target="_blank"></a>
+    			<a class="githubBtn cfgGlobalBtn" href="https://github.com/androuino" target="_blank"></a>
+          <a class="youtubeBtn cfgGlobalBtn" href="https://www.youtube.com/channel/UCYDsd7t4QQEaQ5sSNUjrYiA?view_as=subscriber" target="_blank"></a>
+    		</div>
+      </div>
+
+      <div class="section" id="section1">
+        <div class="fp-bg"></div>
+        <div class="slide" data-anchor="slide01" id="slide01">
+          <div class="myContent">
+            <h1 id="h1AboutMe"></h1>
+            <p id="bio"></p>
+            <p id="introduction"></p>
+          </div>
+        </div>
+        <div class="slide" data-anchor="slide111" id="slide111">
+          <h1 id="h1SoftwareDeveloper"></h1>
+          <p id="pNativeAndroidApp"></p>
+        </div>
+      </div>
+
+      <div class="section" id="section2">
+      </div>
+
+      <div class="section" id="section3">
+        <div class="fp-bg"></div>
+        <div class="myContent">
+          <h1 id="h1SkillSet"></h1>
+          <div class="skillbar clearfix " data-percent="95%">
+          	<div class="skillbar-title" style="background: #ffc300;"><span>Kotlin</span></div>
+          	<div class="skillbar-bar" style="background: #ffd500;"></div>
+          	<div class="skill-bar-percent">95%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="90%">
+          	<div class="skillbar-title" style="background: #ff0000;"><span>Java</span></div>
+          	<div class="skillbar-bar" style="background: #ff8080;"></div>
+          	<div class="skill-bar-percent">90%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="90%">
+          	<div class="skillbar-title" style="background: #333333;"><span>Groovy</span></div>
+          	<div class="skillbar-bar" style="background: #525252;"></div>
+          	<div class="skill-bar-percent">90%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="95%">
+          	<div class="skillbar-title" style="background: #27ae60;"><span>Native Android</span></div>
+          	<div class="skillbar-bar" style="background: #2ecc71;"></div>
+          	<div class="skill-bar-percent">95%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="50%">
+          	<div class="skillbar-title" style="background: #124e8c;"><span>C</span></div>
+          	<div class="skillbar-bar" style="background: #4288d0;"></div>
+          	<div class="skill-bar-percent">50%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="50%">
+          	<div class="skillbar-title" style="background: #ff9999;"><span>C++</span></div>
+          	<div class="skillbar-bar" style="background: #ee6677;"></div>
+          	<div class="skill-bar-percent">50%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="60%">
+          	<div class="skillbar-title" style="background: #122b8c;"><span>C#</span></div>
+          	<div class="skillbar-bar" style="background: #2f2b9f;"></div>
+          	<div class="skill-bar-percent">60%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="95%">
+          	<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+          	<div class="skillbar-bar" style="background: #e67e22;"></div>
+          	<div class="skill-bar-percent">95%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="80%">
+          	<div class="skillbar-title" style="background: #2980aa;"><span>CSS3</span></div>
+          	<div class="skillbar-bar" style="background: #3498aa;"></div>
+          	<div class="skill-bar-percent">80%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="90%">
+          	<div class="skillbar-title" style="background: #29eeb9;"><span>JavaScript</span></div>
+          	<div class="skillbar-bar" style="background: #34eedb;"></div>
+          	<div class="skill-bar-percent">90%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="30%">
+          	<div class="skillbar-title" style="background: #ff80b9;"><span>jQuery</span></div>
+          	<div class="skillbar-bar" style="background: #ff98db;"></div>
+          	<div class="skill-bar-percent">30%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="90%">
+          	<div class="skillbar-title" style="background: #3080e9;"><span>Linux</span></div>
+          	<div class="skillbar-bar" style="background: #4098eb;"></div>
+          	<div class="skill-bar-percent">90%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="section4">
+        <div class="fp-bg"></div>
+        <div class="myContent">
+          <h1 id="h1Contact"></h1>
+          <div id="formMain">
+            <div id="formDiv">
+              <form class="form" id="form1" action="send.php" method="post">
+                <p class="name">
+                  <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" id="name" placeholder="Name" />
+                </p>
+                <p class="email">
+                  <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                </p>
+                <p class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Message"></textarea>
+                </p>
+                <div class="submit">
+                  <input type="submit" value="Submit" name="submit" id="button-blue"/>
+                  <div class="ease"></div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div id="footer">
+            <h2 id="pEndGreetings"></h2>
+            <p>© 2020 Josaped Moreno</p>
+            <div id="resume" onclick="downloadResume()"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <!--<script type="text/javascript" src="js/fullpage.extensions.min.js"></script>-->
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>

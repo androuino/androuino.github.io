@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700&subset=latin,latin-ext);
+
+html {
+  height: 100%;
+  overflow: auto;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.25;
+  font-family: 'Raleway', Calibri, Arial, sans-serif;
+  transition: all 0.5s;
+  text-align: center;
+  background-color:#440951;
+  background-image: -moz-linear-gradient(top, #b032cb, #440951);
+  background-image: -webkit-gradient(linear, left top,left bottom, from(#b032cb), to(#440951));
+  background-image: linear-gradient(top, #b032cb, #440951);
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: rgba(255,255,255,0.8);
+  font-size: 45px;
+}
+
+.number {
+  color: rgba(255,255,255,0.8);
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* SWITCH OPEN */
+/*.demo-container {
+  text-align: center;
+}
+.switch {
+  margin: 50px auto;
+}*/
+
+/* SWITCH */
+/*.switch {
+	background: #ec1c23;
+	border-radius: 50px;
+	height: 50px;
+	margin-bottom: 40px;
+	position: relative;
+	width: 80px;
+	transition: background-color 0.3s ease-in-out;
+}
+.switch:after {
+	background: #fff;
+	border-radius: 100%;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+	content: " ";
+	display: block;
+	height: 44px;
+	left: 3px;
+	position: absolute;
+	top: 3px;
+	width: 44px;
+	transition: all 0.3s ease-in-out;
+}
+.switch > input {
+	display: none;
+}
+.switch.on {
+	background: #47d764;
+}
+.switch.on:after {
+	left: 33px;
+}*/
+/* SWITCH CLOSE */
+
+.underline {
+  border: none;
+  height: 2px;
+  width: 40%;
+  color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,8.8);
+}
+
+.switch-container {
+  text-align: center;
+}
+
+.switch {
+  margin: 10px auto;
+}
+
+.startcam {
+  margin-top: 55px;
+}
+
+.stopcam {
+  margin-top: 55px;
+}
+
+.dial {
+  margin-top: 30px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 22px;
+  color: rgba(0,0,0,1.0);
+}
+
+.startcall {
+  margin-top: 55px;
+}
+
+.stopcall {
+  margin-top: 55px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+	border-radius: 10px;
+	font-family: 'cursive', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.upper-buttons div {
+  display: inline;
+  clear: none;
+  margin-top: 100px;
+}
+
+.input-dial {
+  margin-bottom: 50px;
+}
+
+.lower-buttons div {
+  display: inline-block;
+  clear: none;
+}
+
+.stream-container {
+  position: relative;
+  float: left;
+}
+
+.stream-container div {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.video-out {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  float: left;
+  clear: left;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .upper-buttons {
+    margin-top: -50px;
+  }true
+
+  .upper-buttons div {
+    display: inherit;
+    margin-top: 50px;
+    clear: none;
+  }
+
+  .lower-buttons {
+    margin-bottom: 50px;
+  }
+
+  .underline {
+    width: 100%;
+  }
+
+  .startcam {
+  }
+
+  .stopcam {
+  }
+
+  .dial {
+    width: 220px;
+  }
+
+  .startcall {
+    margin-top: 1px;
+  }
+
+  .stopcall {
+
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .lower-buttons div {
+    display: inline-block;
+    clear: none;
+    margin-top: -20px;
+    margin-bottom: 50px;
+  }
+
+  .underline {
+    width: 100%;
+  }
+
+  .startcam {
+
+  }
+
+  .stopcam {
+
+  }
+
+  .dial {
+
+  }
+
+  .startcall {
+
+  }
+
+  .stopcall {
+
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .startcam {
+
+  }
+
+  .stopcam {
+
+  }
+
+  .dial {
+
+  }
+
+  .startcall {
+
+  }
+
+  .stopcall {
+
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .startcam {
+
+  }
+
+  .stopcam {
+
+  }
+
+  .dial {
+
+  }
+
+  .startcall {
+
+  }
+
+  .stopcall {
+
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .startcam {
+
+  }
+
+  .stopcam {
+
+  }
+
+  .dial {
+
+  }
+
+  .startcall {
+
+  }
+
+  .stopcall {
+
+  }
+}

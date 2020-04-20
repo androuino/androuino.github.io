@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Josaped Moreno</title>
+		<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript">
+		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript">
+		<meta name="author" content="Codrops">
+		<link rel="shortcut icon" href="img/intellisrc100x100.png">
+    <link rel="icon" type="image/png" href="img/intellisrc100x100.png" sizes="196x196" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
+		<link rel="stylesheet" type="text/css" href="css/component.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200,400,800" rel="stylesheet" type="text/css">
+		<!--[if IE]>
+		<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    <link rel="stylesheet" type="text/css" href="https://tympanus.net/codrops/adpacks/demoadpacks.css?1411519815227"><script id="_adpacks_projs" type="text/javascript" src="//cdn.buysellads.com/ac/pro.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+
+    <script type="text/javascript" id="_bsaPRO_js" src="//srv.buysellads.com/ads/get/ids/C6SI42Y/?r=1411516800000&amp;segment_C6SI42Y=placement:tympanusnet&amp;freqcap=8367,3,3" async="async"></script>
+    <script type="text/javascript" async="" src="//adn.fusionads.net/launchbit/10790/null/?141151982"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    <style type="text/css">@charset "UTF-8";
+      [ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,
+      .ng-hide{
+        display:none !important;
+      }
+      ng\:form{
+        display:block;
+      }
+      .ng-animate-block-transitions{
+        transition:0s all!important;
+        -webkit-transition:0s all!important;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/index2.css">
+  </head>
+
+	<body data-pinterest-extension-installed="cr1.3.4" cz-shortcut-listen="true">
+		<div class="container demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header" style="height: 775px;">
+          <div class="nav nav-right" style="float: right; margin: 30px 30px 0 0;">
+            <a class="about" href="#modalA">About</a>
+            <a class="projects" href="#h2-projects">Projects</a>
+            <a class="contact" href="#contact">Contact</a>
+            <a class="shop" onclick="shop(); return false;">Shop</a>
+          </div>
+					<canvas id="demo-canvas" width="941" height="775"></canvas>
+					<h1 class="main-title">
+            <span class="thin">
+              <span class="my-name" style="font-family: Tahoma, Geneva, sans-serif; display: inline-block; color: #ddeedd; text-shadow: 3px 2px black; padding: 0.15em 0.4em; border: white solid 6px;">
+                Josaped(ジョサペド) Moreno(モレノ)
+              </span>
+            </span>
+            <p class="kicker" style="font-size: 50%; text-shadow: 3px 2px black; color: #ffffff;">Software Developer</p>
+          </h1>
+				</div>
+			</div>
+      <!-- Related demos -->
+      <section class="modal bg--blue" role="dialog" id="modalA" aria-labelledby="modalA-title" aria-describedby="modalA-description">
+      	<a href="#" class="modal-exit" title="close">&times;</a>
+      	<h1 id="modalA-title" class="modal-title">Welcome</h1>
+        <h2>-{ ME }-</h2>
+      	<p id="modalA-description" class="modal-description">My name is <span style="font-weight: 700;">Josaped Moreno</span>
+          short for <span style="font-weight: 700;">Sem</span>.
+          I am a Christian, a Software Developer and a part-time Server Admin Support living in Japan. I am a big fan of Iron man and The Avengers movie series.
+          I like Science and comedy so I have watched the full seasons of The Big Bang Theory and now I started watching The Flash tv series.
+        </p>
+        <br>
+        <h2>-{ THEN }-</h2>
+        <p id="modalA-description" class="modal-description">
+          I started working as junior software developer in 2009 and became professional in 2017 onwards. Since then I have gained more
+          confidence about my skills and was able to deliver professional work. With my growing experience to diversity of technology,
+          I became more open to new study, experience, and explore new things. Knowing and learning about Deep Learning Technology made me
+          think that I can use it as an advantage to make a difference that will create an impact and will be useful for the next generation.
+        </p>
+        <br>
+        <h2>-{ ASSERT }-</h2>
+        <p id="modalA-description" class="modal-description">
+          I believe that there's more to come, whether it's a advancement in technology, medicine, and life. One thing for sure is that
+          we are the one who is responsible. Don't let our knowledge become our enemy one day, instead make it a slave in a good way and
+          always stay humble.
+        </p>
+        <br>
+        <h2>-{ TRY }-</h2>
+        <p id="modalA-description" class="modal-description">
+          If I made you interested about me, my <a href="#footer">resume</a> is just a bit scroll down away. What are you waiting for?
+        </p>
+        <br>
+        <h2>-{ CATCH }-</h2>
+        <p id="modalA-description" class="modal-description">
+          Thank you.
+        </p>
+      </section>
+
+      <div class="container container-projects large-header" style="clear: both; background: rgba(255,255,255,1);">
+        <h2 id="h2-projects" class="h2-projects">PROJECTS</h2>
+        <div class="bottom-border"></div>
+
+        <ul class="blocks">
+          <li>DONKEY CAR
+            <div>2018</div>
+            <a href="#">
+              <div class="popup popup-first">
+                <span>
+                  <h3>My new field of study of#Machine Learning</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>BITFLYER EXCHANGE UI (JAVA)
+            <div>2018</div>
+            <a href="#">
+              <div class="popup second">
+                <span>
+                  <h3>Bitcoin and Altcoins wallet exchange</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>DIY 3D PRINTER
+            <div>2016</div>
+            <a href="#">
+              <div class="popup third">
+                <span>
+                  <h3>This is one of my interesting project</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>ANDROUINO (ANDROID)
+            <div>2015</div>
+            <a href="https://play.google.com/store/apps/details?id=com.josapedmoreno.androuino" target="_blank">
+              <div class="popup fourth">
+                <span>
+                  <h3>My first Embedded Programming project</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>SIMPLE WebRTC
+            <div>2018</div>
+            <a href="#">
+              <div class="popup fifth" onclick="webRTC(); return false;">
+                <span>
+                  <h3>Single/Multiclient video calling web based app</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>DSLR REMOTE TRIGGER ANDROID APP (DELISTED)
+            <div>2015</div>
+            <a href="https://play.google.com/store/apps/details?id=com.josapedmoreno.shutterremote" target="_blank">
+              <div class="popup sixth">
+                <span>
+                  <h3>IR trigger for DSLR cameras. Written in Java but delisted in Play Store already</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>FLUTTER APP (HYBRID)
+            <div>2018</div>
+            <a href="#">
+              <div class="popup seventh" onclick="flutterClick(); return false;">
+                <span>
+                  <h3>On going</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>Android-EPC-Writer
+            <div>2017</div>
+            <a href="#">
+              <div class="popup eight">
+                <span>
+                  <h3>This is a Android Application Project for Toyota converted to Kotlin implementing MVVM architecture</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>DPS-TCU
+            <div>2017</div>
+            <a href="#">
+              <div class="popup eight">
+                <span>
+                  <h3>This is a shared Android Application Project for Toyota written in Kotlin and Java implementing MVVM architecture</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>LIGHTBOX DEMO
+            <div>2018</div>
+            <a href="">
+              <div class="popup eight" onclick="lightboxDemo(); return false;">
+                <span>
+                  <h3>For Wadachi Computer House demo project</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>IntelliBox by IntelliSrc
+            <div>2018</div>
+            <a href="https://gitlab.com/intellisrc/intellibox" target="_blank">
+              <div class="popup eight">
+                <span>
+                  <h3>This is an Open Source Labelling Tool Project made in java</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>Darknet4J by IntelliSrc (Darknet Java)
+            <div>2018</div>
+            <a href="https://github.com/lepe/darknet4j" target="_blank">
+              <div class="popup eight">
+                <span>
+                  <h3>This open source project is inspired by darknet</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>DeepLearning4J UI by IntelliSrc
+            <div>2018</div>
+            <a href="https://github.com/androuino/deeplearning4jui" target="_blank">
+              <div class="popup eight">
+                <span>
+                  <h3>This open source project is for testing models graphically</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>Tire-ID AI Computer Vision Application
+            <div>2018 - 2019</div>
+            <a href="#">
+              <div class="popup eight">
+                <span>
+                  <h3>This is a shared project we made with my senior developer for Toyota. This project is heavily written in Groovy. We are using here the Darknet Framework Library</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>Toyota Ambulance System (Web Application)
+            <div>2018 - 2019</div>
+            <a href="#">
+              <div class="popup eight">
+                <span>
+                  <h3>This is a shared project we made with my senior developer. This project is written in Groovy as backend, HTML, JavaScript, and CSS as frontend</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>PnW Presenter
+            <div>2019</div>
+            <a href="https://github.com/androuino/pnw" target="_blank">
+              <div class="popup eight">
+                <span>
+                  <h3>This private project I started just recently is a projector presentation controller written fully in Kotlin with Javafx implementation. The project is in private mode in github</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>Talk (Native Android App)
+            <div>2019 - 2020</div>
+            <a href="https://github.com/androuino/talk" target="_blank">
+              <div class="popup eight">
+                <span>
+                  <h3>This is a personal project I am currently working on which follows MVVM architecture written in Kotlin</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li>WebRTC (Server)
+            <div>2019 - 2020</div>
+            <a href="https://talk-app.herokuapp.com/" target="_blank">
+              <div class="popup eight">
+                <span>
+                  <h3>This is part of the Talk app that I am working on with WebRTC Video and Voice Calls</h3>
+                </span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container container-projects large-header" style="clear: both; background: rgba(55,55,55,1);">
+        <h2 id="h2-projects" class="h2-projects" style="color: rgba(255,255,255,0.6)">SKILLS SET</h2>
+        <div class="bottom-border-coding"><span class="coding">&lt; / &gt;</span></div>
+        <div>
+          <ul>
+            <li><h1 style="color: rgba(255,255,255,1)">Kotlin</h1></li>
+            <li><h1 style="color: rgba(255,255,255,1)">Java</h1></li>
+            <li><h1 style="color: rgba(255,255,255,1)">Groovy</h1></li>
+            <li><h1 style="color: rgba(255,255,255,1)">Native Android App Development</h1></li>
+            <li><h1 style="color: rgba(255,255,255,1)">Basic Native iOS App Development</h1></li>
+            <li><h1 style="color: rgba(255,255,255,1)">Basic Hybrid App Development using Flutter</h1></li>
+            <li><h1 style="color: rgba(255,255,255,1)">HTML, CSS, JavaScript</h1></li>
+            <li><h1 style="color: rgba(255,255,255,1)">DeepLearning using Darknet Framework</h1></li>
+            <li><h1 style="color: rgba(255,255,255,1)">Object Detection, Image Classification training</h1></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container container-contact large-header" style="clear: both; background: rgba(255,255,255,1);">
+        <div class="slant"></div>
+        <div>
+          <h1 id="contact" class="contact-bottom">CONTACT</h1>
+          <form method="post" name="mailform" action="" id="sendLetter">
+        		<input id="name" name="name" placeholder="What is your name?" class="name" required />
+        		<input id="emailaddress" name="emailaddress" placeholder="What is your email?" class="email" type="email" required />
+            <textarea id="message" rows="4" cols="50" name="subject" placeholder="Please enter your message" class="message" required></textarea>
+            <input id="submit" name="submit" class="btn" type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+
+      <div id="footer" class="container container-footer large-header" style="background: rgba(55,55,55,1);">
+        <div id="btnripplebsd">
+          <a class="bsdripplebtn btntwo ripple-effect-bsd" href="assets/Josaped Moreno.pdf" download>DOWNLOAD CV</a>
+        </div>
+        <div id="btnripplebsd">
+          <a class="bsdripplebtn btntwo ripple-effect-bsd" href="assets/ジョサペド モレノ.pdf" download>DOWNLOAD 日本語 CV</a></div>
+        <div class="copyright" style="margin-top: 3%; opacity: 1;">&copy; 2018 All Rights Reserved</div>
+        <!--<div style="opacity: 1;">morenojosaped@gmail.com</div>-->
+        <div class="img-container">
+          <a href="https://play.google.com/store/apps/developer?id=Josaped+Moreno&hl=en" target="_blank" class="iconSocial">
+            <img class="img-responsive" src="https://res.cloudinary.com/dh8yrwvea/image/upload/v1473598163/1473616096_googleplus_jydic1.png" alt="google"/>
+          </a>
+          <a href="https://www.youtube.com/channel/UCsblir_-yQXvXnWCkzPystg" target="_blank" class="iconSocial">
+            <img class="img-responsive" src="https://res.cloudinary.com/dh8yrwvea/image/upload/v1473598151/1473616104_youtube_na0qyf.png" alt="youtube"/>
+          </a>
+          <a href="https://github.com/androuino/esp8266-files-for-flashing" target="_blank" class="iconSocial">
+            <img class="img-responsive" src="https://res.cloudinary.com/dh8yrwvea/image/upload/v1473600891/GitHub-Mark-120px-plus_xsq1eq.png" alt="github"/>
+          </a>
+          <a href="http://www.instructables.com/id/Arduino-Dual-Controlled-RC-Car-Bluetooth-and-WiFi/" target="_blank" class="iconSocial">
+            <img class="img-responsive img-circle" src="https://res.cloudinary.com/dh8yrwvea/image/upload/v1473601380/instructables_250px_1107194_easyicon.net_jhyt2d.png" alt="instructables"/>
+          </a>
+        </div>
+      </div>
+		</div><!-- /container -->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#submit').click(function() {
+          if ($('#name').val() == '' || $('#emailaddress').val() == '' || $('#message').val() == "") {
+          } else {
+            swal({
+              title: "Thank you",
+              text: "Message Sent!",
+              icon: "success",
+            });
+            $('#name').val() = "";
+            $('#emailaddress').val() = "";
+            $('#message').val() = "";
+          }
+        });
+      });
+
+      function flutterClick() {
+        swal("Ongoing Project");
+      }
+
+      function webRTC() {
+        swal({
+          title: "Client",
+          text: "Open the client page",
+          icon: "info",
+          buttons: "Ok",
+        })
+        .then((willDelete) => {
+          if (willDelete) {
+            //window.location.href = "client.html";
+            window.open("client.html", "_blank");
+          } else {
+            //window.location.href = "server.html";
+            window.open("server.html", "_blank");
+          }
+        });
+
+        !function(a) {
+          a(".ripple-effect-bsd").click(function(b) {
+            var c=a(this);0===c.find(".bsdeffect").length&&c.append("<span class='bsdeffect'></span>");
+            var d=c.find(".bsdeffect");
+            if(d.removeClass("animate"),!d.height()&&!d.width()) {
+              var e=Math.max(c.outerWidth(),c.outerHeight());
+              d.css({height:e,width:e})
+            }
+            var f=b.pageX-c.offset().left-d.width()/2,g=b.pageY-c.offset().top-d.height()/2;
+            d.css({top:g+"px",left:f+"px"}).addClass("animate")}
+          )};
+      }
+
+      function lightboxDemo() {
+        window.open("lightbox.html", "_blank")
+      }
+
+      function shop() {
+        window.open("market.html", "_blank")
+      }
+    </script>
+  </body>
+</html>

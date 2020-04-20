@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WebRTC Server</title>
+		<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript">
+		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript">
+		<meta name="author" content="Codrops">
+    <link rel="shortcut icon" href="img/intellisrc100x100.png">
+    <link rel="icon" type="image/png" href="img/intellisrc100x100.png" sizes="196x196" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
+		<link rel="stylesheet" type="text/css" href="css/component.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200,400,800" rel="stylesheet" type="text/css">
+		<!--[if IE]>
+		<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    <link rel="stylesheet" type="text/css" href="https://tympanus.net/codrops/adpacks/demoadpacks.css?1411519815227"><script id="_adpacks_projs" type="text/javascript" src="//cdn.buysellads.com/ac/pro.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" id="_bsaPRO_js" src="//srv.buysellads.com/ads/get/ids/C6SI42Y/?r=1411516800000&amp;segment_C6SI42Y=placement:tympanusnet&amp;freqcap=8367,3,3" async="async"></script>
+    <script type="text/javascript" async="" src="//adn.fusionads.net/launchbit/10790/null/?141151982"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    <style type="text/css">@charset "UTF-8";
+      [ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,
+      .ng-hide{
+        display:none !important;
+      }
+      ng\:form{
+        display:block;
+      }
+      .ng-animate-block-transitions{
+        transition:0s all!important;
+        -webkit-transition:0s all!important;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/server.css">
+  </head>
+
+  <body>
+    <div class="container-fluid app">
+      <div class="row">
+        <div id="home">
+          <h2 class="title">SERVER</h2>
+          <hr class="underline">
+          <!-- your number -->
+          <div id="number"></div>
+
+          <!-- camera -->
+          <div><button id="startcam">Start Camera</button></div>
+          <div><button id="stopcam">Stop Camera</button></div>
+
+          <!-- dialer/calling -->
+          <div><button id="startcall">Start Call</button><input id="dial"></div>
+          <div><button id="stopcall">Stop Call</button></div>
+
+          <!-- Video Feeds -->
+          <div id="video-out"></div>
+          <br>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/webrtc-v2.js"></script>
+    <script src="js/server.js"></script>
+  </body>
+
+</html>
