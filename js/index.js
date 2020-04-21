@@ -346,6 +346,7 @@ function addElement() {
       newHeader.setAttribute('style', 'font-size: 4vw;');
       var videoDiv = document.createElement('div');
       var description = document.createElement('p');
+      description.setAttribute('class', 'pSlideDesc');
 
       switch (i) {
         case 1:
@@ -360,7 +361,6 @@ function addElement() {
           videoDiv.appendChild(video);
 
           description.setAttribute('id', 'pDonkeyCarDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -368,7 +368,6 @@ function addElement() {
         case 2:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pBitflyerDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content2 = document.createTextNode("");
           description.appendChild(content2);
           videoDiv.appendChild(description);
@@ -376,7 +375,6 @@ function addElement() {
         case 3:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pPrinterDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content3 = document.createTextNode("");
           description.appendChild(content3);
           videoDiv.appendChild(description);
@@ -393,7 +391,6 @@ function addElement() {
           videoDiv.appendChild(video4);
 
           description.setAttribute('id', 'pAndrouinoDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -407,7 +404,6 @@ function addElement() {
         case 5:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pDSLRRemoteDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -415,7 +411,6 @@ function addElement() {
         case 6:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pEPCWriterDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -423,7 +418,6 @@ function addElement() {
         case 7:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pDPSTCUDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -431,7 +425,6 @@ function addElement() {
         case 8:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pIntelliBoxDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -445,7 +438,6 @@ function addElement() {
         case 9:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pDarknet4jDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -459,7 +451,6 @@ function addElement() {
         case 10:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pDL4jUIDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -473,7 +464,6 @@ function addElement() {
         case 11:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pTireIDDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -481,7 +471,6 @@ function addElement() {
         case 12:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pWebAmbulanceDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -489,7 +478,6 @@ function addElement() {
         case 13:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pPWPresenterDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -497,7 +485,6 @@ function addElement() {
         case 14:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pTalkAppDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
@@ -505,13 +492,11 @@ function addElement() {
         case 15:
           videoDiv.appendChild(newHeader);
           description.setAttribute('id', 'pWebRTCDesc');
-          description.setAttribute('class', 'pSlideDesc');
           var content = document.createTextNode("");
           description.appendChild(content);
           videoDiv.appendChild(description);
           break;
         default:
-          description.setAttribute('class', 'pSlideDesc');
           videoDiv.appendChild(description);
           videoDiv.appendChild(newHeader);
       }

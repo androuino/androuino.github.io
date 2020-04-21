@@ -397,6 +397,8 @@ h1 {
 }
 
 .pSlideDesc {
+  padding: 0 5% 0 5%;
+  text-align: justify;
   font-size: 2.2vw;
 }
 
