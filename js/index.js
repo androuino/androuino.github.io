@@ -69,23 +69,23 @@ var en_us = {
   h1Name:               "Welcome to my page<br>Keep scrolling",
   h1AboutMe:            "Who am I?",
   bio:                  "My name is Josaped Moreno short for Sem.",
-  introduction:          "I'm a software developer based in the Land of the Rising Sun, Japan."+
-                        "I graduated college from the beautiful country of the Philippines, yes I am a Filipino :D."+
-                        "I really enjoy solving real-world problems using software development, I always think of making things easy and"+
-                        "eventually do it with purpose so that I will not waste my time doing things that in the end is useless, but of course"+
-                        "I am not afraid to fail because failure has always been my way of developing my character and skills."+
-                        "I love being in a group of people, collaborate with them, learn from their experiences and most importantly is creating a connection with them."+
-                        "I also love serving the Church where I go every Sunday which I voluntarily offer my skills in"+
+  introduction:         "I'm a software developer based in the Land of the Rising Sun, Japan. "+
+                        "I graduated college from the beautiful country of the Philippines, yes I am a Filipino :D. "+
+                        "I really enjoy solving real-world problems using software development, I always think of making things easy and "+
+                        "eventually do it with purpose so that I will not waste my time doing things that in the end is useless, but of course "+
+                        "I am not afraid to fail because failure has always been my way of developing my character and skills. "+
+                        "I love being in a group of people, collaborate with them, learn from their experiences and most importantly is creating a connection with them. "+
+                        "I also love serving the Church where I go every Sunday which I voluntarily offer my skills in "+
                         "software development to support the creative team in terms of technicality.",
-  pNativeAndroidApp:    "For the Native Android App Development, I usually work with Kotlin. I normally follow the MVVM architecture components but there are also others like MVC and MVP."+
-                        "I do unit testing to test if the codes work fine."+
-                        "I also integrate other frameworks like Dagger2, Retrofit, RxJava, Gson and many more."+
-                        "When it comes to database, I normally use Firebase or Room Persistent local database but I am not limited only to these tools."+
-                        "For the front-end, I usually work with Javascript, HTML5, and CSS. When it comes to the back-end, I also work with Javascript (MySql, MariaDB), Java and Groovy."+
-                        "For Embedded programming, I work with C and C++ as firmware, Arduino, Raspberry Pi as hardware modules."+
-                        "For hybrid applications, I work with Flutter and Cordova."+
-                        "For deeplearning frameworks, I am very familiar with Darknet that is written in C and C++. I normally use Linux whenever I do training or compiling the library."+
-                        "I am very confident using Linux, Ubuntu in particular. I know some of the bash commands and I have been using Unix systems for more than 5 years now.",
+  pNativeAndroidApp:    "For the Native Android App Development, I usually work with Kotlin. I normally follow the MVVM architecture components but there are also others like MVC and MVP. "+
+                        "I do unit testing to test if the codes work fine. "+
+                        "I also integrate other frameworks like Dagger2, Retrofit, RxJava, Gson and many more. "+
+                        "When it comes to database, I normally use Firebase or Room Persistent local database but I am not limited only to these tools. "+
+                        "For the front-end, I usually work with Javascript, HTML5, and CSS. When it comes to the back-end, I also work with Javascript (MySql, MariaDB), Java and Groovy. "+
+                        "For Embedded programming, I work with C and C++ as firmware, Arduino, Raspberry Pi as hardware modules. "+
+                        "For hybrid applications, I work with Flutter and Cordova. "+
+                        "For deeplearning frameworks, I am very familiar with Darknet that is written in C and C++. I normally use Linux whenever I do training or compiling the library. "+
+                        "I am very confident using Linux, Ubuntu in particular. I know some of the bash commands and I have been using Unix systems for more than 5 years now. ",
   h1SoftwareDeveloper:  "I'm a Software Developer",
   h1MyProjects:         "These are things I did so far",
   pDescription:         "Scroll to left or right",
@@ -96,7 +96,7 @@ var en_us = {
                         "It was created to be an automatic trading bot using Bitflyer's API. ",
   pPrinterDesc:         "I made this project by myself. "+
                         "I created this to serve as my tool to create a lot of things. "+
-                        "Until now this printer has been so helpful to me to speed up my prototyping and testing.",
+                        "Until now this printer has been so helpful to me to speed up my prototyping and testing. ",
   pAndrouinoDesc:       "This is my first Native Android application I did 4 years ago. "+
                         "The purpose of the app is to control the car via Bluetooth and WiFi connections. ",
   pDSLRRemoteDesc:      "This is my second Native Android app which is also released on Google Play Store after Androuino "+
@@ -105,7 +105,7 @@ var en_us = {
                         "other popular DSLR cameras.",
   pEPCWriterDesc:       "This project is done by a team that I am part of. "+
                         "This is the first project assigned to me from my previous company, Inspeedia. "+
-                        "The purpose of this app is to write and read RFID tags/cards via Bluetooth connection.",
+                        "The purpose of this app is to write and read RFID tags/cards via Bluetooth connection. ",
   pDPSTCUDesc:          "This project is done by a team that I am part of. "+
                         "This is the second Native Android app that I am assigned to collaborate in my previous company, Inspeedia. "+
                         "The purpose of this app is to act as a monitor for the daily operation of various car manufacturing plants in Japan. "+
@@ -134,7 +134,7 @@ var en_us = {
                         "This is a multiplatform application and can play video background and loop it infinitely with stable RAM usage. "+
                         "It can also display 3 versions of Bible verses at once. "+
                         "At the moment, you can switch between 2 languages which are English and Japanese.",
-  pTalkAppDesc:         "This too is my personal project."+
+  pTalkAppDesc:         "This too is my personal project. "+
                         "This is a native Android app written in Kotlin. "+
                         "I am sorry If I couldn't tell you some details about this project. "+
                         "I am just hoping that I could release this project anytime soon in Google Play Store and App Store.",
