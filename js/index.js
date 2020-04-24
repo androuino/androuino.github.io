@@ -106,12 +106,12 @@ var en_us = {
   pEPCWriterDesc:       "This project is done by a team that I am part of. "+
                         "This is the first project assigned to me from my previous company, Inspeedia. "+
                         "The purpose of this app is to write and read RFID tags/cards via Bluetooth connection. ",
-  pDPSTCUDesc:          "This project is done by a team that I am part of. "+
-                        "This is the second Native Android app that I am assigned to collaborate in my previous company, Inspeedia. "+
-                        "The purpose of this app is to act as a monitor for the daily operation of various car manufacturing plants in Japan. "+
+  pDPSTCUDesc:          "This project is done by a team that I have been part of. "+
+                        "This is the second Native Android app that I am assigned to collaborate with. "+
+                        "The purpose of this app is to act as a monitor for the daily operation in various car manufacturing plants in Japan. "+
                         "The company is planning to expand its sales of this system domestically. "+
                         "If you want to check how good this project is, please visit https://inspeedia.com/ for more info.",
-  pIntelliBoxDesc:      "This project is done by me and my good friend Lepe who is my Project Leader. "+
+  pIntelliBoxDesc:      "This project has done by me and my amazing friend Lepe who is my Project Leader."+
                         "We've made this project internally and for many personal reasons. "+
                         "By the time we are developing an AI project and we needed a tool for labeling the dataset in preparation for training an AI model, "+
                         "we decided to develop our own labeling tool that meets our needs for the project we are doing and we ended up developing this IntelliBox.",
@@ -119,17 +119,18 @@ var en_us = {
                         "I have good news for you because there is an available wrapper that would help you put a bridge between two languages. "+
                         "Please check the link below to find out more.",
   pDL4jUIDesc:          "There's nothing so special actually why I did this project. "+
-                        "My main purpose why I did this is because I wanted a UI to test the AI model right after the training. "+
+                        "My main purpose why I did this is because I wanted a UI to test the AI model right after the training in a graphical way. "+
+                        "The DeepLearning Framework I use for training the model is the DeepLearning4j, please check www.deeplearning4j.org for more information. "+
                         "Anyway, please check the link below. This is open-source so you can do whatever you want.",
   pTireIDDesc:          "This project is very complex. This is an AI project which is still in progress. "+
                         "This is a collaboration project between me and my project leader when I was working in Inspeedia. "+
                         "I should say this is the most challenging project I have ever experienced in my career as a developer. "+
-                        "We've used the Darknet framework and Groovy for this project.",
-  pWebAmbulanceDesc:    "This is a web system if you happen to buy an ambulance with accessories. "+
+                        "We've used the Darknet framework and Groovy for this project then we used JNA/JNI to bridge the Java and C.",
+  pWebAmbulanceDesc:    "This is a web system for buying an ambulance unit with different chosen accessories. "+
                         "We've used HTML5, CSS, and JavaScript for front-end, "+
                         "Java for the back-end.",
   pPWPresenterDesc:     "This is my personal project. "+
-                        "If you are familiar with the OpenLP, this system is similar to that. "+
+                        "If you are familiar with the OpenLP(https://openlp.org/), this system is similar to that. "+
                         "Yes, this is a Worship presentation system that I wrote with pure Kotlin. "+
                         "This is a multiplatform application and can play video background and loop it infinitely with stable RAM usage. "+
                         "It can also display 3 versions of Bible verses at once. "+
@@ -215,30 +216,31 @@ var jp_jp = {
   pEPCWriterDesc:       "このプロジェクトは私が参加しているチームによって行われます。"+
                         "これは、前の会社であるInspeediaから割り当てられた最初のプロジェクトです。"+
                         "このアプリの目的は、Bluetooth接続を介してRFIDタグ/カードを読み書きすることです。",
-  pDPSTCUDesc:          "このプロジェクトは私が参加しているチームによって行われます。"+
-                        "これは、私の前の会社であるInspeediaとのコラボレーションに割り当てられた2番目のネイティブAndroidアプリです。"+
+  pDPSTCUDesc:          "このプロジェクトは、私が参加しているチームによって行われます。"+
+                        "これは、共同作業を割り当てられた2番目のネイティブAndroidアプリです。"+
                         "このアプリの目的は、日本のさまざまな自動車製造工場の日常業務のモニターとして機能することです。"+
                         "同社はこのシステムの国内販売を拡大する計画である。"+
                         "このプロジェクトの良さを確認したい場合は、https：//inspeedia.com/にアクセスして詳細を確認してください。",
-  pIntelliBoxDesc:      "このプロジェクトは、私と私のプロジェクトリーダーである親友のLepeによって行われました。"+
+  pIntelliBoxDesc:      "このプロジェクトは、私と私のプロジェクトリーダーであるすばらしい友人Lepeさんによって行われました。"+
                         "私たちはこのプロジェクトを社内で、そして多くの個人的な理由で作りました。"+
                         "AIプロジェクトを開発しているときに、AIモデルのトレーニングに備えてデータセットにラベルを付けるツールが必要でした。"+
                         "私たちは現在行っているプロジェクトのニーズを満たす独自のラベル付けツールを開発することを決め、このIntelliBoxを開発することになりました。",
   pDarknet4jDesc:       "ディープラーニングを試したいときに、CでDarknet Frameworkを使用していて、Javaでそれを使用している場合は、"+
                         "2つの言語間の架け橋となるラッパーがあるので、良いお知らせがあります。"+
                         "詳細については、以下のリンクを確認してください。",
-  pDL4jUIDesc:       "私がこのプロジェクトをやった理由はそれほど特別ではありません。"+
-                        "これを行った主な目的は、トレーニングの直後にUIでAIモデルをテストしたかったからです。"+
+  pDL4jUIDesc:          "私がこのプロジェクトをやった理由はそれほど特別ではありません。"+
+                        "これを行った主な目的は、トレーニングの直後にグラフィカルな方法でAIモデルをテストするUIが必要だったからです。"+
+                        "モデルのトレーニングに使用するDeepLearning FrameworkはDeepLearning4jです。詳細については、www.deeplearning4j.orgを確認してください。"+
                         "とにかく、下のリンクをチェックしてください。 これはオープンソースなので、好きなことができます。",
   pTireIDDesc:          "このプロジェクトは非常に複雑です。 これは現在進行中のAIプロジェクトです。"+
                         "これは、インスピードアで働いていたときの、私と私のプロジェクトリーダーのコラボレーションプロジェクトです。"+
                         "これは、開発者としての私のキャリアの中で、これまでに経験したことのない最も挑戦的なプロジェクトです。"+
-                        "このプロジェクトでは、DarknetフレームワークとGroovyを使用しました。",
-  pWebAmbulanceDesc:    "万が一付属品のある救急車を購入した場合のWebシステムです。"+
+                        "このプロジェクトでは、DarknetフレームワークとGroovyを使用してから、JNA / JNIを使用してJavaとCをブリッジしました。",
+  pWebAmbulanceDesc:    "これは、選択されたさまざまなアクセサリを備えた救急ユニットを購入するためのWebシステムです。"+
                         "フロントエンドにはHTML5、CSS、JavaScriptを使用しましたが、"+
                         "バックエンド用のJava。",
   pPWPresenterDesc:     "これは私の個人的なプロジェクトです。"+
-                        "OpenLPに精通している場合、このシステムはそれに似ています。"+
+                        "OpenLP（https://openlp.org/）に精通している場合、このシステムはそれに似ています。"+
                         "はい、これは私が純粋なKotlinで作成した礼拝プレゼンテーションシステムです。"+
                         "これはマルチプラットフォームアプリケーションであり、安定したRAM使用量でビデオのバックグラウンドを再生して無限にループできます。"+
                         "また、聖書の3つのバージョンを同時に表示することもできます。"+
