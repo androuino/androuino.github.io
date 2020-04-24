@@ -325,6 +325,7 @@ function addElement() {
     newDiv.setAttribute('class', 'slide');
     newDiv.setAttribute('data-anchor', 'slide' + i);
     newDiv.setAttribute('id', 'slide' + i);
+    newDiv.setAttribute('style', 'background-color: #323232;');
     var parallax = document.createElement('div');
     parallax.setAttribute('class', 'fp-bg');
     newDiv.appendChild(parallax);
@@ -396,6 +397,7 @@ function addElement() {
           videoDiv.appendChild(description);
           var link = document.createElement('a');
           link.setAttribute('target', '_blank');
+          link.setAttribute('style', 'color: white; position: absolute; bottom: 50px;');
           link.href = "https://gitlab.com/androuino/androuino";
           var text = document.createTextNode("Source code");
           link.appendChild(text);
@@ -430,6 +432,7 @@ function addElement() {
           videoDiv.appendChild(description);
           var link = document.createElement('a');
           link.setAttribute('target', '_blank');
+          link.setAttribute('style', 'color: white; position: absolute; bottom: 50px;');
           link.href = "https://gitlab.com/intellisrc/intellibox";
           var text = document.createTextNode("Source code");
           link.appendChild(text);
@@ -443,6 +446,7 @@ function addElement() {
           videoDiv.appendChild(description);
           var link = document.createElement('a');
           link.setAttribute('target', '_blank');
+          link.setAttribute('style', 'color: white; position: absolute; bottom: 50px;');
           link.href = "https://gitlab.com/intellisrc/darknet4j";
           var text = document.createTextNode("Source code");
           link.appendChild(text);
@@ -456,6 +460,7 @@ function addElement() {
           videoDiv.appendChild(description);
           var link = document.createElement('a');
           link.setAttribute('target', '_blank');
+          link.setAttribute('style', 'color: white; position: absolute; bottom: 50px;');
           link.href = "https://github.com/androuino/deeplearning4jui";
           var text = document.createTextNode("Source code");
           link.appendChild(text);
