@@ -92,7 +92,7 @@ var en_us = {
   pDonkeyCarDesc:       "This project is a self-driving car using the Raspberry Pi microcomputer. "+
                         "The project was discontinued because of a lack of training for the AI model. "+
                         "Though I'd like to continue this project in the future.",
-  pBitflyerDesc:        "This project is made in Java. "+
+  pBitflyerDesc:        "I made this project using Java language. "+
                         "It was created to be an automatic trading bot using Bitflyer's API. ",
   pPrinterDesc:         "I made this project by myself. "+
                         "I created this to serve as my tool to create a lot of things. "+
@@ -203,7 +203,7 @@ var jp_jp = {
   pDonkeyCarDesc:       "このプロジェクトは、Raspberry Piマイコンを使用した自動運転車です。"+
                         "AIモデルのトレーニングが不足していたため、プロジェクトは中止されました。"+
                         "今後もこのプロジェクトを続けていきたいですが。",
-  pBitflyerDesc:        "このプロジェクトはJavaで作られています。"+
+  pBitflyerDesc:        "このプロジェクトはJava言語を使用して作成しました。"+
                         "これは、BitflyerのAPIを使用した自動取引ボットとして作成されました。",
   pPrinterDesc:         "このプロジェクトは自分で作りました。"+
                         "私はこれを作成して、多くのことを作成するためのツールとして使用しました。"+
