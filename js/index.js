@@ -107,7 +107,7 @@ var en_us = {
                         "This is the first project assigned to me from the previous company I have worked for. "+
                         "The purpose of this app is to write and read RFID tags/cards via Bluetooth connection. ",
   pDPSTCUDesc:          "This project is done by a team that I have been part of. "+
-                        "This is the second Native Android app that I am assigned to collaborate with. "+
+                        "This is actually the second native Android app we have developed. "+
                         "The purpose of this app is to act as a monitor for the daily operation in various car manufacturing plants in Japan. "+
                         "The company is planning to expand its sales of this system domestically. "+
                         "If you want to check how good this project is, please visit https://inspeedia.com/ for more info.",
@@ -217,7 +217,7 @@ var jp_jp = {
                         "これは、以前勤務していた会社から割り当てられた最初のプロジェクトです。"+
                         "このアプリの目的は、Bluetooth接続を介してRFIDタグ/カードを読み書きすることです。",
   pDPSTCUDesc:          "このプロジェクトは、私が参加しているチームによって行われます。"+
-                        "これは、共同作業を割り当てられた2番目のネイティブAndroidアプリです。"+
+                        "これは、実際に私たちが開発した2番目のネイティブAndroidアプリです。"+
                         "このアプリの目的は、日本のさまざまな自動車製造工場の日常業務のモニターとして機能することです。"+
                         "同社はこのシステムの国内販売を拡大する計画である。"+
                         "このプロジェクトの良さを確認したい場合は、https：//inspeedia.com/にアクセスして詳細を確認してください。",
