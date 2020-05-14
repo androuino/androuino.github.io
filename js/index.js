@@ -151,7 +151,7 @@ var en_us = {
   projects:              [
                           '', // 0
                           'Donkey Car', // 1
-                          'Bitflyer Exchange UI (Java)', // 2
+                          'Bitflyer Bitcoin FX Bot (Java)', // 2
                           'DIY 3D Printer', // 3
                           'Androuino (Native Android Java)', // 4
                           'DSLR Remote Trigger (Native Android Java)(Delisted)', // 5
@@ -260,7 +260,7 @@ var jp_jp = {
   projects:              [
                           '', // 0
                           'ロバカー', // 1
-                          'Bitflyer Exchange UI (Java)', // 2
+                          'Bitflyer Bitcoin FX Bot (Java)', // 2
                           'DIY 3Dプリンター', // 3
                           'Androuino（ネイティブAndroid Java）', // 4
                           'DSLRリモートトリガー（ネイティブAndroid Java）（上場廃止）', // 5
