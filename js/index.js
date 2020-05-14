@@ -126,9 +126,9 @@ var en_us = {
                         "This is a collaboration project between me and my project leader when I was working in Inspeedia. "+
                         "I should say this is the most challenging project I have ever experienced in my career as a developer. "+
                         "We've used the Darknet framework and Groovy for this project then we used JNA/JNI to bridge the Java and C.",
-  pWebAmbulanceDesc:    "This is a web system for buying an ambulance unit with different chosen accessories. "+
+  pWebAmbulanceDesc:    "This is a web system used by authorized Toyota ambulance personnel only. "+
                         "We've used HTML5, CSS, and JavaScript for front-end, "+
-                        "Java for the back-end.",
+                        "Java for the back-end. The link is: https://himedic.toyota-cd.co.jp/business.html",
   pPWPresenterDesc:     "This is my personal project. "+
                         "If you are familiar with the OpenLP(https://openlp.org/), this system is similar to that. "+
                         "Yes, this is a Worship presentation system that I wrote with pure Kotlin. "+
@@ -236,9 +236,9 @@ var jp_jp = {
                         "これは、インスピードアで働いていたときの、私と私のプロジェクトリーダーのコラボレーションプロジェクトです。"+
                         "これは、開発者としての私のキャリアの中で、これまでに経験したことのない最も挑戦的なプロジェクトです。"+
                         "このプロジェクトでは、DarknetフレームワークとGroovyを使用してから、JNA / JNIを使用してJavaとCをブリッジしました。",
-  pWebAmbulanceDesc:    "これは、選択されたさまざまなアクセサリを備えた救急ユニットを購入するためのWebシステムです。"+
+  pWebAmbulanceDesc:    "これは、認定されたトヨタの救急隊員のみが使用するWebシステムです。"+
                         "フロントエンドにはHTML5、CSS、JavaScriptを使用しましたが、"+
-                        "バックエンド用のJava。",
+                        "バックエンド用のJava。リンクはhttps://himedic.toyota-cd.co.jp/business.htmlです。",
   pPWPresenterDesc:     "これは私の個人的なプロジェクトです。"+
                         "OpenLP（https://openlp.org/）に精通している場合、このシステムはそれに似ています。"+
                         "はい、これは私が純粋なKotlinで作成した礼拝プレゼンテーションシステムです。"+
