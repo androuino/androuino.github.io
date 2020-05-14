@@ -104,7 +104,7 @@ var en_us = {
                         "Google's new policy. I created this app for the purpose of a remote trigger for Canon, Nikon, Sony, and "+
                         "other popular DSLR cameras.",
   pEPCWriterDesc:       "This project is done by a team that I am part of. "+
-                        "This is the first project assigned to me from my previous company, Inspeedia. "+
+                        "This is the first project assigned to me from the previous company I have worked for. "+
                         "The purpose of this app is to write and read RFID tags/cards via Bluetooth connection. ",
   pDPSTCUDesc:          "This project is done by a team that I have been part of. "+
                         "This is the second Native Android app that I am assigned to collaborate with. "+
@@ -214,7 +214,7 @@ var jp_jp = {
                         "Googleの新しいポリシーに準拠するようにコードベースを更新する機会がなかったため、Googleから除外されました。"+
                         "このアプリは、キヤノン、ニコン、ソニー、その他の人気のデジタル一眼レフカメラのリモートトリガーを目的として作成しました。",
   pEPCWriterDesc:       "このプロジェクトは私が参加しているチームによって行われます。"+
-                        "これは、前の会社であるInspeediaから割り当てられた最初のプロジェクトです。"+
+                        "これは、以前勤務していた会社から割り当てられた最初のプロジェクトです。"+
                         "このアプリの目的は、Bluetooth接続を介してRFIDタグ/カードを読み書きすることです。",
   pDPSTCUDesc:          "このプロジェクトは、私が参加しているチームによって行われます。"+
                         "これは、共同作業を割り当てられた2番目のネイティブAndroidアプリです。"+
